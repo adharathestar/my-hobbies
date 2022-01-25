@@ -1,54 +1,86 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>My Hobby</title>
-    <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">   
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<!-- link the sections with Ids - about and book-->
-    <ul class="menu">
-        <li class="link"><a href="#About">About</a></li>
-        <li class="link"><a href="#Book">Favorite Book</a></li> 
-    </ul>
 
-<section id="welcome">
-    
-    <h1> HOBBY </h1>
-    </section>
+    <div class="container">
 
-    <section id="about">
-        <h1>HEYY</h1>
-        <h1>ABOUT</h1>
-        <div class="line"></div>
-        <p class="para"> My hobby is reading interesting books in my free time.My preferable books to read vary in horror, fantasy, mystery, sci fi. etc. At night before I go to bed, thats usually when i read my book. I am 12 years old and going to year 7. Reading is very good habit which can make me a complete. This hobby can be developed by anyone however I got this naturally. Reading books keep one always happy and busy. It is the good source of enjoyment, knowledge, inspiration and instruction. It makes us disciplined, loyal, punctual and most importantly a successful person in the life.
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/TnYBodnn3x0rNhYb4J9J-hZPjzgOqIRDG7vkSP2WJCI/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/bpWFoLtwz3JGl9i2jM7xajXQLN8pCbMEekad-4FAscI/embed"></iframe>
+        </section>
 
-</p>
-    </section>
-    
-    <section id="book">
-        
-        <h1>Here is my Favourite book and reviews on it</h1>
-        
-        <div class="line"></div>
-    <!-- Fill in the source of the <iframe> tag below to : https://freelymagazine.com/2018/02/14/book-review-i-am-mahala/ -->
-        <iframe width="900" height="1000" src="https://www.theguardian.com/childrens-books-site/2015/jul/09/percy-jackson-and-the-last-olympian-rick-riordan-review" frameborder="0"></iframe>
-        
-        
-       <br>
-        <br>
-        <br>
-        <div class="jj">
-            
-            
-            <a href="https://en.wikipedia.org/wiki/The_Last_Olympian" target="_blank">Click here to view my favorite book of all time </a>
-        
-        
+
+
+        <h2>Click On The Games To Explore</h2>
+
+        <h5>This games are bulid in game lab, click on the game to play</h5>
+
+        <div id="myCarousel" class="carousel slide">
+            <center>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="https://studio.code.org/projects/gamelab/Sdt_OgR8VajkwZ9t45UeVtzMLGiyqhNFJexB9eCe480" 
+                        target="_blank">
+                            <img src="game1.png">
+                        </a>
+                        <p>Car Racing</p>
+                    </div>
+
+                    <div class="item">
+                        <a href="https://studio.code.org/projects/spritelab/muBlV-w9gixQD63uGse-GTo8T4_52ofXM6_nj4YzWsI" target="_blank">
+                            <img src="game2.png">
+                        </a>
+                        <p>Winnie the pooh</p>
+                    </div>
+                    
+                      <div class="item">
+                        <a href="https://studio.code.org/projects/playlab/Xoq31TZJRl0W9K95JthlADu6tbI1xGTsVHpOvYsNtuE" target="_blank">
+                            <!--add the source of the image as "game3.PNG"-->
+                            <img src="game3.PNG">
+                        </a>
+                        <p>Bird hunting for pie</p>
+                    </div>
+                    
+                    <div class="item">
+                        <!--Add 
+                       "https://studio.code.org/projects/playlab/WzncdAxXTuhs9JIxkX2v6qScTqL5bBzoUdfsqrxF4fI"
+                        in href part  -->
+                        <a href="https://studio.code.org/projects/applab/IS84iub0V5KBPRaT9qjAdeWNiBpLXdrcATBTQ5RHsOc" target="_blank">
+                           <img src="thumbnail%20(1).png">
+                        </a>
+                        <p>Ice-cream maker</p>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <!--provide class "glyphicon glyphicon-chevron-right" for the span tag below-->
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            </center>
         </div>
-    </section>
-    
-    </body></html>
+
+    </div>
+
+</body>
+
+</html>
